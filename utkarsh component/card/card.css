@@ -42,10 +42,6 @@ font-family: 'Satisfy', cursive;
 color: var(--secondary-color); 
 }
 
-
-
-
-
 nav ul{
     margin-left: auto; 
     display: flex;
@@ -66,7 +62,7 @@ li{
    
 }
 li a{
-    /* text-decoration: none; */
+    
     color: blue;
     
 }
@@ -78,19 +74,11 @@ a:hover{
 
 main{
     
-    /* grid-template-areas: 200px 1fr; */
-    /* align-items: center; 
-    padding: 3.5rem;
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin: auto; */
     grid-area: main;
     font-size: 1.2rem;
     padding-left: 7rem;
     padding-right: 7rem;
     
-   
 }
 
 main p{
@@ -100,7 +88,7 @@ main p{
 
 h3{
     font-size: 1.5rem;
-    /* line-height: 2rem; */
+   
     letter-spacing: 0.1rem;
  }
 
@@ -136,9 +124,6 @@ iframe{
 
 
 
-
-
-
 footer{
     grid-area: footer;
     display: flex;
@@ -157,8 +142,6 @@ footer ul{
 
 
 }
-
-
 
 
     .card-heading {
@@ -238,25 +221,20 @@ footer ul{
       
       .fas:hover {
         color: var(--primary-color);
-      }
-      
-      /* cards overlay */
-      /*** Simple or original overlay ***/
-      
-      /* Main container */
-      .overlay-image {
+}
+        .overlay-image {
         position: relative;
         width: 100%;
       }
       
-      /* Original image */
+      
       .overlay-image .image {
         display: block;
         width: 10%;
         height: auto;
       }
       
-      /* Original text overlay */
+      
       .overlay-image .text {
         color: var(--body-background-color);
         font-size: 2rem;
@@ -314,23 +292,13 @@ footer ul{
         border: 1px solid var(--secondary-color); 
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
           Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-
-          /* background-color: var(--secondary-color);
-          box-shadow: 1px 1px 1px white;
-          width: 22rem;
-          border-radius: 1rem;
-          border: 1px solid var(--secondary-color);
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+          
       }
       
       .horizontal-img {
         max-inline-size: 50%;
         border-radius: 1rem;
 
-        /* max-inline-size: 100%;
-        block-size: auto;
-        border-radius: 1rem 1rem 0 0;
-        position: relative; */
       }
       
       .main-content {
@@ -365,7 +333,7 @@ nav .main-list{
 nav .main-list li{
   display: inline-block;
   line-height: 30px;
-  /* margin: 50px 0; */
+  
   top: 2px;
 }
 nav .main-list li a{
@@ -501,7 +469,7 @@ padding: 0;
 position: relative;
 text-align: center;
 color: blue;
-/* color: var(--secondary-color); */
+
 }
 .major-list{
     list-style: none;
@@ -511,14 +479,6 @@ color: blue;
     top: 15px;
 }
 main{
-    
-    /* grid-template-areas: 200px 1fr; */
-    /* align-items: center; 
-    padding: 3.5rem;
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin: auto; */
     grid-area: main;
     font-size: 1.2rem;
     padding-left: 7rem;
@@ -532,7 +492,7 @@ main p{
 }
 h3{
     font-size: 1.5rem;
-    /* line-height: 2rem; */
+   
     letter-spacing: 0.1rem;
  }
 
@@ -542,7 +502,6 @@ h3{
      
  }
  
-
 .component-text{
     grid-area: pitch;
     font-size: 42.5%;
@@ -551,10 +510,8 @@ h3{
     letter-spacing: 0.1rem;
 }
 h1{
-  /* grid-area: pitch; */
-    font-size: 42.5%;
-    
-    /* margin: auto; */
+
+    font-size: 42.5%;  
     letter-spacing: 0.1rem;
     text-align: center;
     display: grid;
@@ -573,8 +530,6 @@ iframe{
     padding-top: 1rem;
 }
 
-
-
 footer{
     grid-area: footer;
     display: flex;
@@ -584,7 +539,6 @@ footer{
     padding: 0.5rem;
     color: #fff;
       
-
 }
 
 footer ul{
