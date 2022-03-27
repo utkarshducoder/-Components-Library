@@ -16,7 +16,7 @@ height: 100%;
 }
 
     div {
-        width: 300px;
+        width: 30rem;
     }
     
     
@@ -124,13 +124,7 @@ nav ul{
 
 main{
     
-    /* grid-template-areas: 200px 1fr; */
-    /* align-items: center; 
-    padding: 3.5rem;
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin: auto; */
+    
     grid-area: main;
     font-size: 1.2rem;
     padding-left: 7rem;
@@ -146,7 +140,7 @@ main p{
 
 h3{
     font-size: 1.5rem;
-    /* line-height: 2rem; */
+    
     letter-spacing: 0.1rem;
  }
 
@@ -292,7 +286,7 @@ nav .main-list li{
   display: inline-block;
   line-height: 30px;
    margin: 50px 0; 
-  /* top: 2px; */
+ 
 }
 nav .main-list li a{
   color: #fff;
@@ -315,43 +309,7 @@ a.active,a:hover{
 #check{
   display: none;
 }
-@media (max-width: 925px){
-  label.logo{
-    font-size: 30px;
-    padding-left: 50px;
-  }
-  nav  li a{
-    font-size: 16px;
-  }
-}
-@media (max-width: 858px){
-  .checkbtn{
-    display: block;
-  }
-  .main-list{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #2c3e50;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-  }
-  nav .main-list li{
-    display: block;
-  }
-  nav .main-list a{
-    font-size: 20px;
-  }
-  a:hover,a.active{
-    background: none;
-    color: #0082e6;
-  }
-  #check:checked ~ .main-list{
-    left: 0;
-  }
-}
+
 .header{
     background: #ee5253;
     width: 100%;
@@ -497,6 +455,43 @@ hr{
 
 iframe{
     padding-top: 1rem;
+}
+@media (max-width: 925px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav  li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  .main-list{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav .main-list li{
+    display: block;
+  }
+  nav .main-list a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ .main-list{
+    left: 0;
+  }
 }
 
 
