@@ -187,7 +187,7 @@ footer ul{
       .bars {
         background: var(--hover-color);
         display: inline-block;
-        height: 2px;
+        height: 2rem;
         position: relative;
         width: 1.1rem;
       }
@@ -211,87 +211,7 @@ footer ul{
       }
       
       /* Tablet Menu */
-      @media all and (min-width: 468px) {
-        .menu {
-          justify-content: center;
-        }
       
-        .logo {
-          flex: 1;
-        }
-      
-        .item-nav.button {
-          width: auto;
-          order: 1;
-          display: block;
-        }
-      
-        .toggle {
-          order: 2;
-        }
-      
-        .button.secondary {
-          border: 0;
-        }
-      
-        .button a {
-          text-decoration: none;
-          padding: 0.4rem 0.9rem;
-          background: var(--primary-color);
-          border: 1px solid var(--primary-color);
-          border-radius: 50em;
-        }
-      
-        .button.secondary a {
-          background: transparent;
-        }
-      
-        .button a:hover {
-          transition: all 0.25s;
-        }
-      
-        /* not pseudo class:- anything that is not the class of secondary a:hover and change the background */
-      
-        .button:not(.secondary) a:hover {
-          background: var(--secondary-color);
-          border-color: var(--hover-color);
-        }
-      
-        .button.secondary a:hover {
-          color: var(--hover-color);
-        }
-      }
-      
-      @media all and (min-width: 768px) {
-        .item-nav {
-          display: block;
-          width: auto;
-        }
-      
-        .toggle {
-          display: none;
-        }
-      
-        .logo {
-          order: 0;
-        }
-      
-        .item-nav {
-          order: 1;
-        }
-      
-        .button {
-          order: 2;
-        }
-      
-        .menu li {
-          padding: 0.9rem 0.6rem;
-        }
-      
-        .menu li.button {
-          padding-right: 0;
-        }
-      }
       .navbar{
           height: 40px;
           width: 800px;
@@ -457,7 +377,7 @@ padding: 0;
 position: relative;
 text-align: center;
 color:blue;
-/* color: var(--secondary-color); */
+
 }
 .major-list{
     list-style: none;
@@ -468,13 +388,7 @@ color:blue;
 }
 main{
     
-    /* grid-template-areas: 200px 1fr; */
-    /* align-items: center; 
-    padding: 3.5rem;
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin: auto; */
+    
     grid-area: main;
     font-size: 1.2rem;
     padding-left: 7rem;
@@ -487,8 +401,7 @@ main p{
     letter-spacing: 0.1rem;
 }
 h3{
-    font-size: 1.5rem;
-    /* line-height: 2rem; */
+    font-size: 1.5rem;    
     letter-spacing: 0.1rem;
  }
 
@@ -507,10 +420,8 @@ h3{
     letter-spacing: 0.1rem;
 }
 h1{
-  /* grid-area: pitch; */
+  
     font-size: 42.5%;
-    
-    /* margin: auto; */
     letter-spacing: 0.1rem;
     text-align: center;
     display: grid;
@@ -528,13 +439,90 @@ hr{
 iframe{
     padding-top: 1rem;
 }
-
-
-
-
 @media(max-width:480px){
   section{
     width: 125px;
   }
 }
+@media all and (min-width: 468px) {
+        .menu {
+          justify-content: center;
+        }
+      
+        .logo {
+          flex: 1;
+        }
+      
+        .item-nav.button {
+          width: auto;
+          order: 1;
+          display: block;
+        }
+      
+        .toggle {
+          order: 2;
+        }
+      
+        .button.secondary {
+          border: 0;
+        }
+      
+        .button a {
+          text-decoration: none;
+          padding: 0.4rem 0.9rem;
+          background: var(--primary-color);
+          border: 1px solid var(--primary-color);
+          border-radius: 50em;
+        }
+      
+        .button.secondary a {
+          background: transparent;
+        }
+      
+        .button a:hover {
+          transition: all 0.25s;
+        }
+      
+      
+      
+        .button:not(.secondary) a:hover {
+          background: var(--secondary-color);
+          border-color: var(--hover-color);
+        }
+      
+        .button.secondary a:hover {
+          color: var(--hover-color);
+        }
+      }
+      
+      @media all and (min-width: 768px) {
+        .item-nav {
+          display: block;
+          width: auto;
+        }
+      
+        .toggle {
+          display: none;
+        }
+      
+        .logo {
+          order: 0;
+        }
+      
+        .item-nav {
+          order: 1;
+        }
+      
+        .button {
+          order: 2;
+        }
+      
+        .menu li {
+          padding: 0.9rem 0.6rem;
+        }
+      
+        .menu li.button {
+          padding-right: 0;
+        }
+      }
  
