@@ -12,79 +12,6 @@ background-color:  #31353a;;
 --primary-color: #ecfeff ;
 --secondary-color: #4908fa;
 }
-/* 
-.container{
-    color: var(--primary-color);
-    width: 100vw;
-    text-decoration: none;
-    display: grid;
-    font-weight: 400;
-    grid-auto-flow: column;
-    grid-template-columns: 200px 1fr; 
- 
-    grid-template-areas: 
-    "nav nav "
-    "pitch pitch"
-   "aside main"
-   "aside main"
-   "aside main"
-   "footer footer"
-}
-
-nav{
-    display: flex;
-    gap: 20px;
-    width: 100vw;
-    flex-direction: column;
-    grid-area: nav;
-    
-
-}
-
-nav h2{
-    position: relative;
-    top: 35px;
-    font-size: 2rem;
-    line-height: 2.5rem;
-    letter-spacing: 0.125rem;
-}
-
-.imp-text{
-    font-family: 'Redressed', cursive;
-font-family: 'Roboto', sans-serif;
-font-family: 'Satisfy', cursive;
-color: var(--secondary-color); 
-}
-
-.current-pg{
-  color: var(--secondary-color);
-  display: block;
-      background-color: #eaf1dd;
-      /* color: whitesmoke; 
-      text-decoration: none;
-      font-family: Verdana, Geneva, sans-serif;
-      font-size: 1.5em;
-      padding: 6px 4px;
-      margin: 4px;
-      border-right: 2px solid #999999;
-      border-bottom: 2px solid #999999;
-      border-top-width: 0px;
-      border-left-width: 0px;
-      border-radius: 20%;
-}
-
-
-
-
-nav ul{
-    margin-left: auto; 
-    display: flex;
-  gap: 15px;
-  position: relative;
-  bottom: 35px;
-  padding-inline-end: 0.7rem;
- 
-} */
 .link{
   color: blue;
 }
@@ -96,7 +23,7 @@ li{
    
 }
 li a{
-    /* text-decoration: none; */
+   
     color: blue;
     
 }
@@ -107,14 +34,7 @@ a:hover{
 }
 
 main{
-    
-    /* grid-template-areas: 200px 1fr; */
-    /* align-items: center; 
-    padding: 3.5rem;
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin: auto; */
+   
     grid-area: main;
     font-size: 1.2rem;
     padding-left: 7rem;
@@ -130,7 +50,7 @@ main p{
 
 h3{
     font-size: 1.5rem;
-    /* line-height: 2rem; */
+   
     letter-spacing: 0.1rem;
  }
 
@@ -140,7 +60,6 @@ h3{
      
  }
 
- 
  
 
 .component-text{
@@ -165,7 +84,6 @@ iframe{
 }
 
 
-
 .avatar-image {
     width: 3rem;
     height: 3rem;
@@ -185,8 +103,6 @@ iframe{
     margin-left: 2rem; 
 }
 
-
-
 footer{
     grid-area: footer;
     display: flex;
@@ -204,18 +120,11 @@ footer ul{
   gap: 20px;
 
 
-}
-
-
-
-
-      
+}   
       .main-content {
         display: flex;
         gap: 20px;
       }
-
-
 
       .grid-2 {
         display: grid;
@@ -277,7 +186,7 @@ nav .main-list{
 nav .main-list li{
   display: inline-block;
   line-height: 30px;
-  /* margin: 50px 0; */
+  
   top: 2px;
 }
 nav .main-list li a{
@@ -301,43 +210,7 @@ a.active,a:hover{
 #check{
   display: none;
 }
-@media (max-width: 925px){
-  label.logo{
-    font-size: 30px;
-    padding-left: 50px;
-  }
-  nav  li a{
-    font-size: 16px;
-  }
-}
-@media (max-width: 858px){
-  .checkbtn{
-    display: block;
-  }
-  .main-list{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #2c3e50;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-  }
-  nav .main-list li{
-    display: block;
-  }
-  nav .main-list a{
-    font-size: 20px;
-  }
-  a:hover,a.active{
-    background: none;
-    color: #0082e6;
-  }
-  #check:checked ~ .main-list{
-    left: 0;
-  }
-}
+
 .header{
     background: #ee5253;
     width: 100%;
@@ -413,7 +286,7 @@ padding: 0;
 position: relative;
 text-align: center;
 color: rgb(226, 51, 139);
-/* color: var(--secondary-color); */
+
 }
 .major-list{
     list-style: none;
@@ -423,14 +296,7 @@ color: rgb(226, 51, 139);
     top: 15px;
 }
 main{
-    
-    /* grid-template-areas: 200px 1fr; */
-    /* align-items: center; 
-    padding: 3.5rem;
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin: auto; */
+   
     grid-area: main;
     font-size: 1.2rem;
     padding-left: 7rem;
@@ -444,7 +310,6 @@ main p{
 }
 h3{
     font-size: 1.5rem;
-    /* line-height: 2rem; */
     letter-spacing: 0.1rem;
  }
 
@@ -463,10 +328,10 @@ h3{
     letter-spacing: 0.1rem;
 }
 h1{
-  /* grid-area: pitch; */
+  
     font-size: 42.5%;
     
-    /* margin: auto; */
+   
     letter-spacing: 0.1rem;
     text-align: center;
     display: grid;
@@ -613,6 +478,43 @@ footer ul{
     z-index: 9999;
     cursor: pointer;
     }
+@media (max-width: 925px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav  li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  .main-list{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav .main-list li{
+    display: block;
+  }
+  nav .main-list a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ .main-list{
+    left: 0;
+  }
+}
 
 
  
