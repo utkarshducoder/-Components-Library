@@ -16,7 +16,7 @@ height: 100%;
 }
 nav{
   background: #0082e6;
-  height: 80px;
+  height: 8rem;
   width: 100%; 
 }
 label.logo{
@@ -33,7 +33,7 @@ nav .main-list{
 nav .main-list li{
   display: inline-block;
   line-height: 30px;
-  /* margin: 50px 0; */
+  
   top: 2px;
 }
 nav .main-list li a{
@@ -57,7 +57,7 @@ a.active,a:hover{
 #check{
   display: none;
 }
-/**/
+
 @media (max-width: 480px){
   label.logo{
     font-size: 30px;
@@ -170,7 +170,7 @@ padding: 0;
 position: relative;
 text-align: center;
 color: blue;
-/* color: var(--secondary-color); */
+
 }
 .major-list{
     list-style: none;
@@ -181,13 +181,7 @@ color: blue;
 }
 main{
     
-    /* grid-template-areas: 200px 1fr; */
-    /* align-items: center; 
-    padding: 3.5rem;
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin: auto; */
+   
     grid-area: main;
     font-size: 1.2rem;
     padding-left: 7rem;
@@ -201,7 +195,7 @@ main p{
 }
 h3{
     font-size: 1.5rem;
-    /* line-height: 2rem; */
+   
     letter-spacing: 0.1rem;
  }
 
@@ -220,10 +214,10 @@ h3{
     letter-spacing: 0.1rem;
 }
 h1{
-  /* grid-area: pitch; */
+  
     font-size: 42.5%;
     
-    /* margin: auto; */
+   
     letter-spacing: 0.1rem;
     text-align: center;
     display: grid;
@@ -355,12 +349,12 @@ footer ul{
 
 
 .btnn {
-    background-color: DodgerBlue; /* Blue background */
-    border: none; /* Remove borders */
-    color: white; /* White text */
-    padding: 12px 16px; /* Some padding */
-    font-size: 16px; /* Set a font size */
-    cursor: pointer; /* Mouse pointer on hover */
+    background-color: DodgerBlue; 
+    border: none; 
+    color: white; 
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
   }
   .float-button {
     position: fixed;
