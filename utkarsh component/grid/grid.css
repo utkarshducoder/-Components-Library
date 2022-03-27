@@ -12,79 +12,6 @@ background-color:  #31353a;;
 --primary-color: #ecfeff ;
 --secondary-color: #4908fa;
 }
-/* 
-.container{
-    color: var(--primary-color);
-    width: 100vw;
-    text-decoration: none;
-    display: grid;
-    font-weight: 400;
-    grid-auto-flow: column;
-    grid-template-columns: 200px 1fr; 
- 
-    grid-template-areas: 
-    "nav nav "
-    "pitch pitch"
-   "aside main"
-   "aside main"
-   "aside main"
-   "footer footer"
-}
-
-nav{
-    display: flex;
-    gap: 20px;
-    width: 100vw;
-    flex-direction: column;
-    grid-area: nav;
-    
-
-}
-
-nav h2{
-    position: relative;
-    top: 35px;
-    font-size: 2rem;
-    line-height: 2.5rem;
-    letter-spacing: 0.125rem;
-}
-
-.imp-text{
-    font-family: 'Redressed', cursive;
-font-family: 'Roboto', sans-serif;
-font-family: 'Satisfy', cursive;
-color: var(--secondary-color); 
-}
-
-.current-pg{
-  color: var(--secondary-color);
-  display: block;
-      background-color: #eaf1dd;
-      /* color: whitesmoke; 
-      text-decoration: none;
-      font-family: Verdana, Geneva, sans-serif;
-      font-size: 1.5em;
-      padding: 6px 4px;
-      margin: 4px;
-      border-right: 2px solid #999999;
-      border-bottom: 2px solid #999999;
-      border-top-width: 0px;
-      border-left-width: 0px;
-      border-radius: 20%;
-}
-
-
-
-
-nav ul{
-    margin-left: auto; 
-    display: flex;
-  gap: 15px;
-  position: relative;
-  bottom: 35px;
-  padding-inline-end: 0.7rem;
- 
-} */
 .link{
   color: blue;
 }
@@ -137,19 +64,14 @@ h3{
  .impact{
      font-style: italic;
      color: var(--secondary-color);
-     
- }
+  }
 
- 
- 
-
-.component-text{
+ .component-text{
     grid-area: pitch;
     font-size: 2rem;
     margin: auto;
     letter-spacing: 0.1rem;
 }
-
 
 hr{
     border-top: 1px solid var(--primary-color); 
@@ -185,8 +107,6 @@ iframe{
     margin-left: 2rem; 
 }
 
-
-
 footer{
     grid-area: footer;
     display: flex;
@@ -197,7 +117,6 @@ footer{
       
 
 }
-
 footer ul{
  padding-inline-start: 0.5rem;
     display: flex;
@@ -210,7 +129,7 @@ footer ul{
 
 
       
-      .main-content {
+     .main-content {
         display: flex;
         gap: 20px;
       }
@@ -463,10 +382,10 @@ h3{
     letter-spacing: 0.1rem;
 }
 h1{
-  /* grid-area: pitch; */
+ 
     font-size: 42.5%;
     
-    /* margin: auto; */
+  
     letter-spacing: 0.1rem;
     text-align: center;
     display: grid;
