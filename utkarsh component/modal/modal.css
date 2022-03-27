@@ -13,6 +13,7 @@ height: 100%;
    box-sizing: border-box;
 --primary-color: #ecfeff ;
 --secondary-color: #4908fa;
+    --hotpink-color: #FF69B4
 }
 
 .container{
@@ -43,8 +44,6 @@ text-align: left;
 
 }
 
-
-
 nav ul{
     margin-left: auto; 
     display: flex;
@@ -66,13 +65,6 @@ li{
 
 main{
     
-  /* grid-template-areas: 200px 1fr; */
-  /* align-items: center; 
-  padding: 3.5rem;
-  text-align: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin: auto; */
   grid-area: main;
   font-size: 1.2rem;
   padding-left: 7rem;
@@ -86,7 +78,7 @@ main p{
 }
 h3{
   font-size: 1.5rem;
-  /* line-height: 2rem; */
+ 
   letter-spacing: 0.1rem;
 }
 
@@ -95,10 +87,6 @@ h3{
    color: var(--secondary-color);
    
 }
-
- 
- 
-
  .component-text{
   grid-area: pitch;
   font-size: 42.5%;
@@ -109,21 +97,17 @@ h3{
 
 
 hr{
-  border-top: 1px solid var(--primary-color); 
+ border-top: 1px solid var(--primary-color); 
 width: 100rem;
 }
 
 .highlight{
-  color: hotpink;
+  color: var(--hotpink-color);
 }
 
 iframe{
   padding-top: 1rem;
 }
-
-
-
-
 
 .medium{
     width: 4.5rem;
@@ -136,9 +120,6 @@ iframe{
     height: 5.5rem;
     margin-left: 2rem; 
 }
-
-
-
 
 footer{
   grid-area: footer;
@@ -160,8 +141,6 @@ color: #fff;
 
 
 }
-
-
 
 .button{
     height: 40px;
@@ -222,9 +201,6 @@ h2, p{
 input{
     display: none;
 }
-
-
-
 nav{
   background: #0082e6;
   height: 80px;
@@ -245,7 +221,7 @@ nav .main-list li{
   display: inline-block;
   line-height: 30px;
    margin: 50px 0; 
-  /* top: 2px; */
+
 }
 nav .main-list li a{
   color: #fff;
@@ -268,43 +244,7 @@ a.active,a:hover{
 #check{
   display: none;
 }
-@media (max-width: 925px){
-  label.logo{
-    font-size: 30px;
-    padding-left: 50px;
-  }
-  nav  li a{
-    font-size: 16px;
-  }
-}
-@media (max-width: 858px){
-  .checkbtn{
-    display: block;
-  }
-  .main-list{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #2c3e50;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-  }
-  nav .main-list li{
-    display: block;
-  }
-  nav .main-list a{
-    font-size: 20px;
-  }
-  a:hover,a.active{
-    background: none;
-    color: #0082e6;
-  }
-  #check:checked ~ .main-list{
-    left: 0;
-  }
-}
+
 .header{
     background: #ee5253;
     width: 100%;
@@ -380,7 +320,7 @@ padding: 0;
 position: relative;
 text-align: center;
 color: blue;
-/* color: var(--secondary-color); */
+
 }
 .major-list{
     list-style: none;
@@ -390,19 +330,50 @@ color: blue;
     top: 15px;
 }
 
-
-
-
 h1{
-  /* grid-area: pitch; */
+  
     font-size: 42.5%;
-    
-    /* margin: auto; */
     letter-spacing: 0.1rem;
     text-align: center;
     display: grid;
 }
-
+@media (max-width: 925px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav  li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  .main-list{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav .main-list li{
+    display: block;
+  }
+  nav .main-list a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ .main-list{
+    left: 0;
+  }
+}
 
 
 
