@@ -2,7 +2,8 @@
 
 This is a website which contains all the CSS components that are widely used. All the pages are responsive and are easy to use. this site is build wityh the help of HTMl, CSS and Javascript. 
  <h3><a href="https://componentsofcss.netlify.app/">Instant CSS</a></h3>
-
+ 
+import: https://instantcss.netlify.app/utkarsh%20component/component-css1.css
 
 # Key Features
 ▶️ All the pages are responsive.
